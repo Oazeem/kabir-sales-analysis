@@ -19,14 +19,11 @@ This table aggregates total revenue per year, clearly showing the downward trend
 
 ### Additional Analysis Tables
 
-### Additional Analysis Tables
-
 Includes calculations such as total revenue per sales representative and transaction counts using functions like SUMIF and COUNTIF.
 
-![Additional Analysis 1](./images/Add_analysis01)
-![Additional Analysis 2](./images/Add_analysis02)
-![Additional Analysis 3](./images/Add_analysis03)
-
+![Additional Analysis 1](images/Add_analysis01.png)
+![Additional Analysis 2](images/Add_analysis02.png)
+![Additional Analysis 3](images/Add_analysis03.png)
 ---
 
 ## Business Recommendations
