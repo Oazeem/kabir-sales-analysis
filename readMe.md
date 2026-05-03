@@ -1,214 +1,60 @@
-# Kabir Retail Solutions
+﻿# Kabir Sales Analysis
 
-## Regional Sales Performance Audit & GitHub Submission Guide
+## Executive Summary
+
+Sales show a declining trend over the observed years (2010–2012), dropping from 104,720 in 2010 to 80,960 in 2012. This indicates that overall business performance is weakening, suggesting reduced demand or inefficiencies in sales operations.
+---
+
+## Visual Evidence
+
+### Representative Performance
+
+This table shows individual sales transactions including Sales Rep, Quantity Sold, and Amount. Formulas are displayed to validate calculations.
+![Representative Performance Table](images/rep_table.png)
+
+### Yearly Summary
+
+This table aggregates total revenue per year, clearly showing the downward trend in sales.
+![Yearly Summary Table](images/yearly_table.png)
+
+### Additional Analysis Tables
+
+Includes calculations such as total revenue per sales representative and transaction counts using functions like SUMIF and COUNTIF.
+![Additional Analysis Table](images/
+   Add_analysis01.png
+   Add_analysis02.png
+   Add_analysis03.png)
 
 ---
 
-## Business Scenerio
+## Business Recommendations
 
-You have been hired as a Junior Data Analyst at Kabir Retail Solutions.
+### Efficiency
 
-The Sales Manager has provided a raw dataset containing transactions from five Sales Representatives over a three-year period.
+The sales representative with the highest transaction count is Tola (7 transactions), and she also generates the highest revenue (82,720).
 
-As the company prepares for the 2013 fiscal year, management needs clear answers to:
+There is no sales rep who has the highest transaction count without also having the highest revenue.
 
-- Who is the most consistent performer?
-- Who generates the highest sales volume?
-- Where is performance improving or declining?
+Implication:
+This suggests that higher activity (more transactions) is directly translating into higher revenue. Sales efficiency is consistent, and there is no evidence of a rep making many low-value sales without impact.
 
-Your role is to analyse the data and present your findings in a structured, professional format.
+### Trend Analysis
 
----
+Yearly revenue shows a steady decline:
 
-## Objective
-Transform the raw dataset into a clear business report using:
+2010: 104,720
+2011: 83,600
+2012: 80,960
 
-- Excel (for analysis)
-- GitHub (for communication and submission)
+Recommendation for 2013:
+The company should not hire more staff at this stage. Instead, it should focus on:
 
-This assignment tests both your **technical skills** and your **ability to present insights clearly**.
+Improving sales strategies
+Investigating causes of declining demand
+Training existing staff to increase deal value
 
+Reasoning:
+Hiring more staff during a declining revenue trend could increase costs without guaranteeing improved performance. Stabilizing and reversing the downward trend should be the priority.
+Conclusion
 
-## Getting the Data (MANDATORY — Command Line Interface (CLI))
-
-You must download the dataset using Git (Command Line).
-
-### Step 1: Clone the Data Repository
-
-Run the following command in your terminal:
-
-```bash
-git clone https://github.com/IOTB-DATA-STACK/Assignments.git
-```
-### Step 2: Navigate into the Folder
-
-`cd Assignments`
-
-### Step 3: Locate the Dataset
-
-Open the `data/` folder — your Excel file is inside.
-
-⚠️ Do NOT manually download the file from GitHub UI. You must use git clone.
-
-
-## Your Task
-
-#### Part 1: Recreate Tables
-Recreate all summary tables provided in the dataset.
-
----
-
-### Part 2: Data Analysis (Using Only Taught Functions)
-
-You must use only the Excel functions taught so far:
-
-Like `SUM, COUNTIF, SUMIF, MIN, MAX, AVERAGE, COUNT, COUNTA` amongst others.
-
-Answer the following:
-
-#### 1. Inventory Impact
-- Total quantity sold across all years  
-- Total quantity sold per year
-- Average quantity sold per year
-
-#### 2. Performance Extremes
-- Highest transaction amount  
-- Lowest transaction amount  
-
-#### 3. Representative Activity
-- Use `COUNTIF` to calculate number of transactions per Sales Rep  
-- Identify the most active representative  
-
-#### 4. Financial Contribution
-- Use `SUMIF` to calculate total revenue per Sales Rep  
-
-#### 5. Yearly Trends
-- Create a table showing total **Quantity Sold** for:
-  - 2010  
-  - 2011  
-  - 2012  
-
----
-### Part 3: Conditional Formatting (Business Alert)
-
-Apply Conditional Formatting to the **Amount** column:
-
-- Values **> 15,000 → Green (High Value)**
-- Values **< 6,000 → Red (Low Value)**
-
----
-
-## Submission Instructions (GitHub — STRICT)
-
-Follow these steps exactly.
-
----
-
-### Step 1: Create Repository
-
-Create a new GitHub repository named:
-
-`kabir-sales-analysis`
-
----
-
-### Step 2: Add Files
-
-Your repository **must contain**:
-
-- `README.md`
-- `/images` (folder)
-- Excel file (optional but recommended)
-
-NOTE on how to create your `README.md` - You can create/edit files using:
-- Notepad (Windows users)
-- TextEdit (Mac users)
-- Any basic text editor
-
-OR (recommended but optional): Use Visual Studio Code if you have it on your laptop or you can simply install it if you like. 
-
-What is important is that your final file must be named: README.md to ensure it renders properly on Github
-
----
-
-### Step 3: Write Your README
-
-Your `README.md` is your **final report**. It must include:
-
----
-
-### 1. Executive Summary (2–3 sentences)
-
-Clearly state:
-
-- Are sales increasing, decreasing, or stable?
-- Overall business health
-
----
-
-### 2. Visual Evidence (MANDATORY)
-
-You must include screenshots of your work.
-
-#### Important Requirement
-Your screenshots must show formulas:
-
-- Either click on a cell (formula visible in formula bar), OR  
-- Press `Ctrl + ~` to display all formulas  
-
----
-
-
-#### Required Screenshots
-
-Include:
-
-- Representative Performance Table  
-- Yearly Summary Table  
-- Any additional analysis tables  
-
----
-
-#### How to Add Images
-
-1. Save screenshots in `/images` folder  
-2. Reference them in README like this:
-
-```markdown
-![Representative Table](images/rep_table.png) -  Example below
-```
-
-![Table Description](image.png)
-
-### 3. Business Recommendations
-
-Answer clearly:
-
-Efficiency
-- Which Sales Rep has the highest transaction count but not the highest revenue?
-- What does this suggest about their sales behaviour?
-Trend Analysis
-- Based on yearly performance:
-- Should the company hire more staff in 2013 or reduce?
-- Explain your reasoning
-
-### Step 4: Commit and Push Your Work
-
-```bash
-git add .
-git commit -m "Final submission"
-git branch -M main
-git remote add origin https://github.com/<your-username>/kabir-sales-analysis.git
-git push -u origin main
-```
-
-## Important Rules
-* You must use CLI (no manual download from browser)
-* Do not use formulas outside those taught in class
-* Do not submit incomplete screenshots
-* Do not submit without a properly written README
-* Your GitHub repository is your submission
-
-* Submit your repository through the form [here](https://forms.office.com/r/xeYnafVvWV)
-
-
+The business is currently experiencing a decline in sales performance, but internal efficiency among sales reps remains strong. Strategic improvements—not expansion—are recommended to restore growth.
