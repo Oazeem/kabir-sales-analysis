@@ -54,6 +54,6 @@ Training existing staff to increase deal value
 
 Reasoning:
 Hiring more staff during a declining revenue trend could increase costs without guaranteeing improved performance. Stabilizing and reversing the downward trend should be the priority.
-Conclusion
 
+Conclusion
 The business is currently experiencing a decline in sales performance, but internal efficiency among sales reps remains strong. Strategic improvements—not expansion—are recommended to restore growth.
